@@ -1,0 +1,14 @@
+{
+	"name" : "ROT13 for Edge",
+	"version" : "1.0.0.0",
+	"author" : "Arkane Systems",
+	"description" : "This extension permits page text in rot13 to be decoded.",
+	"icons" : {
+		"16" : "icon.png"
+	},
+	"permissions" : ["contextMenus"],
+	"background" : {
+		"scripts" : [ "background.js" ],
+		"persistent" : true
+	}
+}
